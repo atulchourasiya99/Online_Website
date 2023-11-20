@@ -1,0 +1,1207 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 1274px;
+    background-color:rgba(59, 168, 198, 0.213)
+}
+.nav-manu a
+{
+    color: white;
+}
+nav
+{
+    width: auto;
+    height: 73px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(229, 100, 45);
+    box-shadow: 2px 2px 2px 2px gray;
+    z-index: 100;
+}
+.logo
+{
+    padding-left: 65px;
+    margin-top: 15px;
+    float: left;
+}
+.logo img
+{
+    width: 55px;
+    height: 57%;
+    color: white;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.search
+{
+    float: left;
+    margin-left: 85px;
+    margin-top: -55px;
+    font-size: 18px;
+}
+.search .ican 
+{
+    width: 2%;
+    padding: 13px 23px;
+   margin-left: 120px;
+   margin-top: -46px;
+   opacity: 99%;
+   background-color: rgb(255, 8, 8);
+   cursor: pointer;
+}
+.search input[type=search]
+{
+  box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+  border: none;
+  padding: 15px 120px;
+  margin-left: 120px;
+}
+.search input[type=search]::placeholder
+{
+  font-size: 15px;
+  margin-left: -150px;
+}
+.nav-manu ul
+{
+   margin-left: 640px;
+   transition: all 0.5s ease;
+   margin-top: -38px;
+}
+.nav-manu ul li
+{
+ 
+ margin-inline: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+  display: inline;
+  position: relative;
+  color: white;
+  
+}
+.nav-manu ul li:before {
+    content: "s";
+    background-color: #f4faf4;
+    position: absolute;
+    margin-top: 25px;
+    width: 0%;
+    height: 2px;
+    font-size: 0px;
+    left: 0px;
+    transition: all 0.5s ease;
+}
+
+.nav-manu ul li:hover:before 
+{
+    width: 100%;
+
+}
+.main-manu ul
+{
+    background-color: #0d0a9f;
+   text-align: center;
+   transition: all 0.5s ease;
+   margin-top: -5px;
+   font-size: 16px;
+   padding: 15px 0px;
+}
+.main-manu ul li
+{
+ 
+ margin-inline: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:550;
+  cursor: pointer;
+  display: inline;
+  position: relative;
+}
+.main-manu a
+{
+    color: white;
+}
+.main-manu li a:hover
+{
+    color: rgba(225, 97, 18, 0.893);
+}
+
+.block-1
+{
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #fff;
+    height: 500px;
+}
+
+.img-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    padding-top: 20px;
+    margin-left: 40px;
+    
+}
+.img-card1{
+    width: 254px;
+    height: 271px;
+    transition:all 0.3s ease-in-out;
+    margin-inline: 10px;  
+    cursor: pointer;
+}
+.img-card1:hover{
+    overflow: hidden;
+    transform: scale(1.1) ;
+    background-image: black;
+        
+}
+.realme11pro
+{
+    float: left;
+    margin-top: -50px;
+    margin-left: 70px;
+    height: 100px;
+    width: 250px;
+    cursor: pointer;
+}
+.realme11pro .pra 
+{
+    font-size: 17px;
+    align-items: center;
+    margin-bottom: 15px;
+    line-height: 23px;
+    text-align-last: center;
+    margin-left: -75px;
+}
+.realme11pro .rating
+{
+    margin: 1px;
+    padding: 2px 4px;
+    background-color: #388e3c;
+    color: white;
+    border: 2px solid #388e3c;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.realme11pro .rating i
+{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.realme11pro span
+{
+    opacity: 60%;
+   margin-left: 0px;
+   margin-top: -23px;
+   height: 40px;
+}
+.prize{
+    display: block;
+    padding: 0 10px 0 0;
+    margin: 3px 0;
+}
+.rate
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 30px;
+}
+.old{
+    display: inline-block;
+    margin-left: 6px;
+    opacity: 70%;
+    text-decoration-line: line-through;
+}
+.prize span{
+    color: #388e3c;
+    font-size: 15px;
+    letter-spacing: -.2px;
+    font-weight: 800;
+    
+}
+.realme11pro .btn
+{
+    margin-left: -29px;
+    margin-top: -23px;
+    
+}
+.realme11pro .buy
+{
+    height: 40px;
+    margin: 15px;
+    padding: 0px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.realme11pro .add
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-left: -5px;
+}
+.realme11pro .btn button:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;
+}
+.realme11pro .btn .add:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;    
+}
+.toy
+{
+    margin-top: -50px;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+.toy .pra 
+{
+    font-size: 17px;
+    align-items: center;
+    margin-bottom: 5px;
+    line-height: 23px;
+    text-align-last: center;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+.toy .rating
+{
+    margin: 1px;
+    padding: 2px 4px;
+    background-color: #388e3c;
+    color: white;
+    border: 2px solid #388e3c;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+.toy .rating i
+{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.toy .prize{
+    display: block;
+    padding: 0 10px 0 0;
+    margin: 3px 0;
+    margin-left: 20px;
+}
+.toy.rate
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 30px;
+}
+.toy.old{
+    display: inline-block;
+    margin-left: 6px;
+    opacity: 70%;
+    text-decoration-line: line-through;
+}
+.prize span{
+    color: #388e3c;
+    font-size: 15px;
+    letter-spacing: -.2px;
+    font-weight: 800;
+    margin-left: 5px;
+    
+}
+.toy .btn
+{
+    margin-left: -25px;
+    margin-top: -18px;
+    
+}
+.toy .buy
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 00;
+    margin-top: 0px;
+}
+.toy .add
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-left: -5px;
+}
+.toy .btn button:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;
+}
+.toy .btn .add:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;    
+}
+.laptop
+{
+    float: left;
+    margin-top: -50px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.laptop .pra 
+{
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 5px;
+    line-height: 23px;
+    text-align-last: center;
+    margin-left: 0px;
+}
+.laptop .rating
+{
+    margin: 1px;
+    padding: 2px 4px;
+    background-color: #388e3c;
+    color: white;
+    border: 2px solid #388e3c;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 60px;
+}
+.laptop .rating i
+{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.laptop span
+{
+    opacity: 60%;
+   margin-left: 0px;
+   margin-top: -23px;
+   height: 40px;
+}
+.laptop .prize{
+    display: block;
+    padding: 0 10px 0 0;
+    margin: 3px 0;
+}
+.laptop .rate
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 30px;
+}
+.laptop.old{
+    display: inline-block;
+    margin-left: 6px;
+    opacity: 70%;
+    text-decoration-line: line-through;
+}
+.prize span{
+    color: #388e3c;
+    font-size: 15px;
+    letter-spacing: -.2px;
+    font-weight: 800;
+    
+}
+.laptop .btn
+{
+    margin-left: -39px;
+    margin-top: -20px;
+    
+}
+.laptop .buy
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.laptop .add
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-left: -5px;
+}
+.laptop .btn button:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;
+}
+.laptop .btn .add:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;    
+}
+.cloth
+{
+    width: 200px;
+    margin-right: 40px;
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.cloth .A
+{
+    opacity: 80%;
+    margin-top: -80px;
+   
+}
+.cloth .pra 
+{
+    margin-top: 5px;
+    font-size: 17px;
+    align-items: center;
+    margin-bottom: 5px;
+    line-height: 23px;
+    text-align-last: center;
+    margin-left: -70px;
+    font-weight: 500;
+}
+.cloth .B
+{
+    opacity: 60%;
+   margin-top: 23px;
+   margin-top: 0px;
+   margin-bottom: 5px;
+}
+.cloth .rating
+{
+    margin: 1px;
+    padding: 2px 4px;
+    background-color: #388e3c;
+    color: white;
+    border: 2px solid #388e3c;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+.cloth .rating i
+{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.cloth.prize{
+    display: block;
+    padding: 0 10px 0 0;
+    margin: 3px 0;
+}
+.cloth.rate
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 30px;
+}
+.cloth.old{
+    display: inline-block;
+    margin-left: 6px;
+    opacity: 70%;
+    text-decoration-line: line-through;
+}
+.prize span{
+    color: #388e3c;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    opacity: 100%;
+}
+.cloth .btn
+{
+    margin-left: -45px;
+    margin-top: -20px;
+    
+}
+.cloth .buy
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.cloth .add
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-left: -5px;
+}
+.cloth .btn button:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;
+}
+.cloth .btn .add:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;    
+}
+.block-2
+{
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #fff;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.img-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    padding-top: 20px;
+    margin-left: 40px;
+    
+}
+.img-card2{
+    width: 254px;
+    height: 271px;
+    transition:all 0.3s ease-in-out;
+    margin-inline: 10px;  
+    cursor: pointer;
+}
+.img-card2:hover{
+    overflow: hidden;
+    transform: scale(1.1) ;
+    background-image: black;
+        
+}
+.sofa
+{
+    float: left;
+    margin-top: -50px;
+    margin-left: 70px;
+    height: 180px;
+    width: 250px;
+    cursor: pointer;
+}
+.sofa .pra 
+{
+    font-size: 17px;
+    align-items: center;
+    margin-bottom: 5px;
+    line-height: 23px;
+    text-align-last: center;
+    margin-left: -75px;
+}
+.sofa .B
+{
+    opacity: 60%;
+   margin-top: 23px;
+   margin-top: 0px;
+   margin-bottom: 5px;
+   font-size: 15px;
+}
+.sofa .rating
+{
+    margin: 1px;
+    padding: 2px 4px;
+    background-color: #388e3c;
+    color: white;
+    border: 2px solid #388e3c;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.sofa .rating i
+{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.sofao span
+{
+    opacity: 60%;
+   margin-left: 0px;
+   margin-top: -23px;
+   height: 40px;
+}
+.prize{
+    display: block;
+    padding: 0 10px 0 0;
+    margin: 3px 0;
+}
+.rate
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 30px;
+}
+.old{
+    display: inline-block;
+    margin-left: 6px;
+    opacity: 70%;
+    text-decoration-line: line-through;
+}
+.prize span{
+    color: #388e3c;
+    font-size: 15px;
+    letter-spacing: -.2px;
+    font-weight: 800;
+    
+}
+.sofa .btn
+{
+    margin-left: -29px;
+    margin-top: -25px;
+    
+}
+.sofa .buy
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.sofa .add
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-left: -5px;
+}
+.sofa .btn button:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;
+}
+.sofa .btn .add:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;    
+}
+.cricket
+{
+    float: left;
+    margin-top: -50px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.cricket .pra 
+{
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 5px;
+    line-height: 23px;
+    text-align-last: center;
+    margin-left: -120px;
+}
+.cricket .rating
+{
+    margin: 1px;
+    padding: 2px 4px;
+    background-color: #388e3c;
+    color: white;
+    border: 2px solid #388e3c;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 0px;
+}
+.cricket .rating i
+{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.cricket span
+{
+    opacity: 60%;
+   margin-left: 0px;
+   margin-top: -23px;
+   height: 40px;
+}
+.cricket .prize{
+    display: block;
+    padding: 0 10px 0 0;
+    margin: 3px 0;
+    margin-left: -50px;
+}
+.rate
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 30px;
+}
+.old{
+    display: inline-block;
+    margin-left: 6px;
+    opacity: 70%;
+    text-decoration-line: line-through;
+}
+.prize span{
+    color: #388e3c;
+    font-size: 15px;
+    letter-spacing: -.2px;
+    font-weight: 800;
+    
+}
+.cricket .btn
+{
+    margin-left: -80px;
+    margin-top: -25px;
+}
+.cricket .buy
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.cricket .add
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-left: -5px;
+}
+.cricket .btn button:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;
+}
+.cricket .btn .add:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;    
+}
+.beat
+{
+    margin-top: -50px;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+.beat .pra 
+{
+    font-size: 17px;
+    align-items: center;
+    margin-bottom: 5px;
+    line-height: 23px;
+    text-align-last: center;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+.beat .rating
+{
+    margin: 1px;
+    padding: 2px 4px;
+    background-color: #388e3c;
+    color: white;
+    border: 2px solid #388e3c;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+.beat .rating i
+{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.beat .prize{
+    display: block;
+    padding: 0 10px 0 0;
+    margin: 3px 0;
+}
+.beat  .rate
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.beat .old{
+    display: inline-block;
+    margin-left: 6px;
+    opacity: 70%;
+    text-decoration-line: line-through;
+}
+.prize span{
+    color: #388e3c;
+    font-size: 15px;
+    letter-spacing: -.2px;
+    font-weight: 800;
+    margin-left: 5px;
+    
+}
+.beat .btn
+{
+    margin-left: 29px;
+    margin-top: 0px;
+    
+}
+.beat .buy
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 00;
+    margin-top: 0px;
+}
+.beat .add
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-left: -5px;
+}
+.beat .btn button:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;
+}
+.beat .btn .add:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;    
+}
+.lamp
+{
+    float: left;
+    margin-top: -50px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.lamp .pra 
+{
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 5px;
+    line-height: 23px;
+    text-align-last: center;
+    margin-left: 0px;
+}
+.lamp .B
+{
+    opacity: 60%;
+   margin-top: 23px;
+   margin-top: 0px;
+   margin-left: 70px;
+   margin-bottom: 5px;
+   font-size: 15px;
+}
+.lamp .rating
+{
+    margin: 1px;
+    padding: 2px 4px;
+    background-color: #388e3c;
+    color: white;
+    border: 2px solid #388e3c;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 45px;
+}
+.lamp .rating i
+{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.lamp span
+{
+    opacity: 60%;
+   margin-left: 0px;
+   margin-top: -23px;
+   height: 40px;
+}
+.lamp .prize{
+    display: block;
+    padding: 0 10px 0 0;
+    margin: 3px 0;
+}
+.lamp.rate
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.lamp.old{
+    display: inline-block;
+    margin-left: 6px;
+    opacity: 70%;
+    text-decoration-line: line-through;
+}
+.prize span{
+    color: #388e3c;
+    font-size: 15px;
+    letter-spacing: -.2px;
+    font-weight: 800;
+    
+}
+.lamp .btn
+{
+    margin-left: -39px;
+    margin-top: -20px;
+    
+}
+.lamp .buy
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.lamp .add
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-left: -5px;
+}
+.lamp .btn button:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;
+}
+.lamp .btn .add:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;    
+}
+footer
+{
+    width: 1268px;
+    padding:70px 0px 60px 0px;
+    margin-top: 70px;
+    background-color: rgb(229, 100, 45);
+    margin-left: 0px;
+}
+footer .about   
+{
+    float: left;
+    margin-left: 130px;
+    color: white;
+    cursor: pointer;
+    
+}
+footer .ab 
+{
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    font-weight: 600;
+}
+footer .about li
+{
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    opacity: 80%;
+    font-size: 15px;
+}
+footer .res 
+{
+    float: left;
+    margin-left: 110px;
+    color: white;
+    cursor: pointer;
+}
+footer .re 
+{
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    font-weight: 600;
+}
+footer .res li
+{
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    opacity: 80%;
+}
+footer .quick 
+{
+    float: left;
+    margin-left: 60px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+footer .kick
+{
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    font-weight: 600;
+}
+footer .quick li
+{
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    opacity: 80%;
+    font-size: 15px;
+}
+footer .image img
+{
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 365px;
+}
+footer li:hover
+{
+    opacity: 40%;
+    cursor: pointer;
+}
+footer .web
+{
+   margin-left: 75px;
+}
+footer .web li
+{
+    float: left;
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    opacity: 80%;
+    font-size: 14px;
+    color: white;
+}
+footer .web li span
+{
+    margin: 25px;
+}
+footer h5{
+    float: right;
+    color: white;
+    margin-right: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    opacity: 80%;
+    font-size: 12px;
+}

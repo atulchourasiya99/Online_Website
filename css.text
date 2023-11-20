@@ -1,0 +1,237 @@
+
+<div class="block-1">
+    <div class="img-container1">
+                <div class="img-card1">
+                <img src="./reame11pro.webp" style="height: 200px; width: 200px;">
+              </div>
+
+              <!-- <div class="img-container2"> -->
+                <div class="img-card1">
+                <img src="./toy1.webp" style="height: 200px; width: 200px;">
+              </div>
+
+                <!-- <div class="img-container2"> -->
+                    <div class="img-card1">
+                    <img src="./lap1.webp" style="height: 150px; width: 150px;">
+                </div>
+
+               <!-- <div class="img-container2"> -->
+                   <div class="img-card1">
+                   <img src="./cloth1.webp" style="height: 200px; width: 200px;">
+               </div> 
+    </div>
+
+
+                     <!--image 1nd block-->
+
+
+<div class="realme11pro">
+    <div class="pra"><p>realme 11 Pro 5G (Sunrise <br> Beige, 128 GB)</p></div>
+        <button class="rating">4.3<i class="fa-solid fa-star"></i></button>
+        <span>(58,616)</span>
+        <div class="prize">
+            <div class="rate">23,999</div>
+            <div class="old">₹25,999</div>
+            <span>7% off</span> 
+        </div>
+        <div class="btn">
+            <button class="buy">Buy Now</button>
+            <button class="add">Add To Cart</button>
+        </div>
+</div>
+
+    <div class="toy">
+        <p class="pra">WISHKEY Remote Control Super <br>High Speed Racing Car With </p>
+        <button class="rating">3.8<i class="fa-solid fa-star"></i></button>
+        <span>(11,136)</span>
+        <div class="prize">
+            <div class="rate">749</div>
+            <div class="old">₹1,199</div>
+            <span>37% off</span>
+        </div>
+        <div class="btn">
+            <button class="buy">Buy Now</button>
+            <button class="add">Add To Cart</button>
+        </div>
+    </div>
+
+    <div class="laptop">
+        
+        <p class="pra">ASUS Vivobook 16X (2023)<br> For Creator, Intel H-Series Core <br>i5 12th... </p>
+        <button class="rating">4.3<i class="fa-solid fa-star"></i></button>
+        <span>(24)</span>
+        <div class="prize">
+            <div class="rate">65,990</div>
+            <div class="old">₹98,990</div>
+            <span>33% off</span>
+        </div>
+        <div class="btn">
+            <button class="buy">Buy Now</button>
+            <button class="add">Add To Cart</button>
+        </div>
+    </div>
+
+    <div class="cloth">
+        <div class="A">DIGIMI</div>
+        <div class="pra"><p>Men Solid Cotton...</p></div>   
+        <div class="B">Dark Green</div>
+        <button class="rating">4.3<i class="fa-solid fa-star"></i></button>
+        <div class="prize">
+            <div class="rate">550</div>
+            <div class="old">₹15,99</div>
+            <span>65% off</span>
+        </div>
+        <div class="btn">
+            <button class="buy">Buy Now</button>
+            <button class="add">Add To Cart</button>
+        </div>
+    </div>
+</div>
+    
+    
+                           <!--image 2nd block-->
+
+
+    
+<div class="block-2">
+    <div class="img-container2">
+                <div class="img-card2">
+                <img src="./home1.webp" style="height: 200px; width: 200px;">
+              </div>
+
+              <!-- <div class="img-container2"> -->
+                <div class="img-card2">
+                <img src="./cricket1.webp" style="height: 200px; width: 200px;">
+              </div>
+
+                <!-- <div class="img-container2"> -->
+                    <div class="img-card2">
+                    <img src="./watch1.webp" style="height: 150px; width: 150px;">
+                </div>
+
+               <!-- <div class="img-container2"> -->
+                   <div class="img-card2">
+                   <img src="./home2.webp" style="height: 200px; width: 200px;">
+               </div> 
+    </div>
+
+
+    <div class="sofa">
+        <div class="pra"><p>Bharat Lifestyle Alina Fabric 3 + 2 <br> + 2 Sofa Set</p></div>
+        <div class="B">Cream Brown, DIY(Do-It-Yourself)</div>
+        <button class="rating">3.2<i class="fa-solid fa-star"></i></button>
+        <span>(232)</span>
+        <div class="prize">
+            <div class="rate">33,999</div>
+            <div class="old">₹79,999</div>
+            <span>57% off</span> 
+        </div>
+        <div class="btn">
+            <button class="buy">Buy Now</button>
+            <button class="add">Add To Cart</button>
+        </div>
+    </div>
+
+    <div class="cricket">
+        <p class="pra">ASUS Vivobook 16X (2023)<br> For Creator, Intel H-Series Core <br>i5 12th... </p>
+        <button class="rating">4.3<i class="fa-solid fa-star"></i></button>
+        <span>(24)</span>
+        <div class="prize">
+            <div class="rate">65,990</div>
+            <div class="old">₹98,990</div>
+            <span>33% off</span>
+        </div>
+        <div class="btn">
+            <button class="buy">Buy Now</button>
+            <button class="add">Add To Cart</button>
+        </div>
+    </div>
+
+    <div class="beat">
+        <p class="pra">beatXP Marv Neo...</p>
+        <button class="rating">4.8<i class="fa-solid fa-star"></i></button>
+        <div class="prize">
+            <div class="rate">24,999</div>
+            <div class="old">₹27,999</div>
+            <span>76% off</span>
+        </div>
+        <div class="btn">
+            <button class="buy">Buy Now</button>
+            <button class="add">Add To Cart</button>
+        </div>
+    </div>
+
+    <div class="lamp">
+        <div class="pra"><p>Gojeeva Uplight Wall Lamp <br> Without Bulb </p></div>   
+        <div class="B">pack of 2</div>
+        <button class="rating">3.9<i class="fa-solid fa-star"></i></button>
+        <span>(2,087)</span>
+        <div class="prize">
+            <div class="rate">494</div>
+            <div class="old">₹11,99</div>
+            <span>58% off</span>
+        </div>
+        <div class="btn">
+            <button class="buy">Buy Now</button>
+            <button class="add">Add To Cart</button>
+        </div>
+    </div>
+</div>
+
+
+                              <!--Footer-->
+
+<footer>
+        <div class="about">
+          <ul>
+            <h3 class="ab">About Us </h3>
+            <li>Contact Us</li>
+            <li>Cleartrip</li>
+            <li>Corporate Information</li>
+          </ul>
+        </div>
+        <div class="res">
+          <ul>
+            <h3 class="re">Help</h3>
+            <li>Payments</li>
+            <li>Shipping</li>
+            <li>Cancellation</li>
+            <li>Resturns</li>
+          </ul>
+        </div>
+        <div class="quick">
+          <ul>
+            <h3 class="kick">SOCIAL</h3>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
+        <div class="image">
+          <img src="./visa.svg">
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+          <hr style="width: 1125px;">
+        </center>
+        <br>
+        <div class="web">
+          <ul>
+            <li>Web Accessiblity<span>|</span></li>
+            <li>Privacy Statement<span>|</span></li>
+            <li>Terms of Use<span>|</span></li>
+            <li>Contact Us<span>|</span></li>
+          </ul>
+        </div>
+        <h5>© 2023 Design Sopping Cart Website. All rights reserved.</h5>
+      </footer>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    </html>

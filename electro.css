@@ -1,0 +1,381 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: auto;
+    background-color:rgba(59, 168, 198, 0.213)
+}
+nav a
+{
+    color: white;
+}
+nav
+{
+    width: auto;
+    height: 73px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(229, 100, 45);
+    box-shadow: 2px 2px 2px 2px gray;
+    z-index: 100;
+}
+.search
+{
+    float: left;
+    margin-left: 85px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.search .ican 
+{
+    width: 2%;
+    padding: 13px 23px;
+   margin-left: 0px;
+   margin-top: -46px;
+   opacity: 99%;
+   background-color: rgb(255, 8, 8);
+   cursor: pointer;
+}
+.search input[type=search]
+{
+  box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+  border: none;
+  padding: 15px 150px;
+}
+.search input[type=search]::placeholder
+{
+  font-size: 15px;
+  margin-left: -150px;
+}
+.nav-manu ul
+{
+   margin-left: 640px;
+   transition: all 0.5s ease;
+   margin-top: -38px;
+}
+.nav-manu ul li
+{
+ 
+ margin-inline: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+  display: inline;
+  position: relative;
+  color: white;
+  
+}
+.nav-manu ul li:before {
+    content: "s";
+    background-color: #f4faf4;
+    position: absolute;
+    margin-top: 25px;
+    width: 0%;
+    height: 2px;
+    font-size: 0px;
+    left: 0px;
+    transition: all 0.5s ease;
+}
+
+.nav-manu ul li:hover:before 
+{
+    width: 100%;
+
+}
+.main-manu ul
+{
+   margin-left: 260px;
+   transition: all 0.5s ease;
+   margin-top: 35px;
+   margin-bottom: 35px;
+   font-size: 16px;
+}
+.main-manu ul li
+{
+ 
+ margin-inline: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:550;
+  cursor: pointer;
+  display: inline;
+  position: relative;
+  color: black;
+  
+}
+.main-manu a
+{
+    color: black;
+}
+.main-manu li:hover
+{
+    color: rgb(181, 147, 153);
+}   
+#frist
+{
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #fff;
+    height: 500px;
+    width: auto;
+}
+
+.realme11
+{
+    float: left;
+    margin-top: 50px;
+    margin-left: 70px;
+    height: 100px;
+    width: 1000px;
+    cursor: pointer;
+}
+.realme11 img
+{
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.realme11 .pra p
+{
+    float: right;
+    width: 700px;
+    font-size: 20px;
+    margin-right: -35px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    line-height: 23px;
+   font-weight: bold;
+}
+.realme11 .rating
+{
+    float: left;
+    margin: 1px;
+    padding: 2px 4px;
+    background-color: #388e3c;
+    color: white;
+    border: 2px solid #388e3c;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 93px;
+    margin-bottom: 20px;
+}
+.realme11 .rating i
+{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.realme11 span
+{
+    float: left;
+    opacity: 60%;
+   margin-left: 10px;
+   margin-top: 3px;
+   height: 40px;
+}
+.realme11 .info
+{
+    float: left;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-left: -245px;
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+ .prize{
+    float: right;
+    padding: 0 10px 0 0;
+    margin: 3px 0;
+    margin-top: 0px;
+}
+ .rate
+{
+    font-size: 26px;
+    font-weight: 600;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 10px;
+    margin-right: 130px;
+}
+.old{
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 66px;
+    opacity: 70%;
+    text-decoration-line: line-through;
+}
+.prize span{
+    float: right;
+    display: inline;
+    color: #388e3c;
+    font-size: 15px;
+    letter-spacing: -.2px;
+    font-weight: 800;
+    margin-top: -19px;
+    margin-right: 100px;
+    
+}
+.realme11 .btn
+{
+    float: right;
+    margin-right: -20px;
+    margin-top: 0px;
+    
+}
+.realme11 .buy
+{
+    height: 40px;
+    margin: 15px;
+    padding: 0px 20px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.realme11 .add
+{
+    height: 40px;
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: rgb(229, 100, 45);
+    color: white;
+    border: 2px solid rgb(229, 100, 45);
+    border-radius: 7px;
+    font-weight: 600;
+    margin-left: -5px;
+    
+}
+.realme11 .btn button:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;
+}
+.realme11 .btn .add:hover
+{
+    background-color:#ff9f00;
+    border: 2px solid #ff9f00;
+    cursor: pointer;    
+}
+
+footer
+{
+    margin-top: 200px;
+    width: 1268px;
+    padding:70px 0px 60px 0px;
+    margin-top: 70px;
+    background-color: rgb(229, 100, 45);
+    margin-left: 0px;
+}
+footer .about   
+{
+    float: left;
+    margin-left: 130px;
+    color: white;
+    cursor: pointer;
+    
+}
+footer .ab 
+{
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    font-weight: 600;
+}
+footer .about li
+{
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    opacity: 80%;
+    font-size: 15px;
+}
+footer .res 
+{
+    float: left;
+    margin-left: 110px;
+    color: white;
+    cursor: pointer;
+}
+footer .re 
+{
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    font-weight: 600;
+}
+footer .res li
+{
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    opacity: 80%;
+}
+footer .quick 
+{
+    float: left;
+    margin-left: 60px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+footer .kick
+{
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    font-weight: 600;
+}
+footer .quick li
+{
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    opacity: 80%;
+    font-size: 15px;
+}
+footer .image img
+{
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 365px;
+}
+footer li:hover
+{
+    opacity: 40%;
+    cursor: pointer;
+}
+footer .web
+{
+   margin-left: 75px;
+}
+footer .web li
+{
+    float: left;
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    opacity: 80%;
+    font-size: 14px;
+    color: white;
+}
+footer .web li span
+{
+    margin: 25px;
+}
+footer h5{
+    float: right;
+    color: white;
+    margin-right: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    opacity: 80%;
+    font-size: 12px;
+}
